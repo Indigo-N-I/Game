@@ -1,4 +1,5 @@
 import pygame
+from main import SCREEN_WIDTH, SCREEN_HEIGHT
 pygame.init()
 
 
