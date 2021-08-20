@@ -1,6 +1,7 @@
 import pygame
 import random
 from enemy import Enemy
+from platform import Platform
 from constants import SCREEN_WIDTH, SCREEN_HEIGHT
 pygame.init()
 
@@ -10,7 +11,7 @@ if __name__ == "__main__":
     pygame.display.set_caption("Platformer")
 
     all_sprites = pygame.sprite.Group()
-    e1 = Enemy(200,200)
+    e1 = Platform(200,200)
     all_sprites.add(e1)
 
     screen.fill((0,0,0))
@@ -20,7 +21,6 @@ if __name__ == "__main__":
             if event.type == pygame.QUIT:
                 pygame.quit()
                 quit()
-
 
         all_sprites.update()
         screen.fill((0,0,0))

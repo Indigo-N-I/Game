@@ -14,3 +14,6 @@ class Platform(pygame.sprite.Sprite):
         self.rect.y = y
 
         self.image.fill((0,0,255))
+
+    def update(self):
+        pass
