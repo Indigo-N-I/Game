@@ -1,3 +1,4 @@
-from player import printSomething
+import pygame
+pygame.init()
 
-print(printSomething)
+# main game loop
