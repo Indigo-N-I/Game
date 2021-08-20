@@ -1,3 +1,4 @@
-from player import add
+import pygame
+pygame.init()
 
-print(add(2,3))
+# main game loop

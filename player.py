@@ -1,4 +1,4 @@
+import pygame
+pygame.init()
 
-
-def add(a,b):
-    return a + b
+# creating the player object
